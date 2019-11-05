@@ -211,3 +211,58 @@ footer{
         font-size: 100%;
     }
   }
+  @media (max-width: 500px){
+      .navbar{
+          display:flex;
+          flex-direction:column-reverse;
+      }
+      nav{
+          display:flex;
+          flex-direction:column;  
+      }
+      nav a{
+          font-size: 125%;
+          border-bottom:0.05em solid black;
+          padding:4%;
+      }
+      nav a:first-child{
+        border-top:0.05em solid black;
+      }
+      .header-text h1{
+        font-size:475%;
+      }
+      .header-text {
+        width: 70%;
+        margin-bottom:5%;
+    }
+    .header-text p{
+        width:60%;
+        margin-left: 16%;
+        padding: 2% 1% 2% 0%;
+        border: 0.09em solid black;
+    }
+    .content{
+        display:flex;
+        flex-direction:column;
+    }
+    .content p{
+        width:75%;
+    }
+    .content section {
+        width:100%;
+        margin-top:8%;
+    }
+    .middle-img{
+        padding: 5% 0% 5% 0%;
+    }
+    hr{
+        border-top: 0.1em solid black;
+    }
+    address{
+        padding-top:1em;
+    }
+    address p{
+        padding-bottom:3%;
+ 
+    }
+  }
